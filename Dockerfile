@@ -1,0 +1,8 @@
+FROM requarks/wiki:2
+ENV PORT=8080
+ENV DB_TYPE=postgres
+ENV DB_HOST=127.0.0.1
+ENV DB_PORT=5432
+ENV DB_USER=wiki-db
+ENV DB_PASS=hogehoge
+ENV DB_NAME=wikijs
