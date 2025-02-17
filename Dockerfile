@@ -6,3 +6,4 @@ ENV DB_PORT=5432
 ENV DB_USER=wiki-db
 ENV DB_PASS=hogehoge
 ENV DB_NAME=wikijs
+EXPOSE 8080
